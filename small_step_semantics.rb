@@ -198,7 +198,7 @@ class If < Struct.new(:condition, :consequence, :alternative)
   end
 end
 
-class  Sequence < Struct.new(:first, :second)
+class Sequence < Struct.new(:first, :second)
   def to_s
     "#{first};  #{second}"
   end
